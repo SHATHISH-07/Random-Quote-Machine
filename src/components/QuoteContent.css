@@ -1,0 +1,58 @@
+.quote-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #fff;
+  padding: 0 20px;
+}
+
+.quote-content {
+  margin: 20px;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.quote-text {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.quote-author {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  background: #555;
+  color: #fff;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.quote {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
